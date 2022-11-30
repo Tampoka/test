@@ -1,11 +1,11 @@
 import s from './PostItem.module.scss'
 import {PostType} from '../../types/types';
 
-type PostItemPropsType={
-    post:PostType
+type PostItemPropsType = {
+    post: PostType
 }
-const PostItem = ({post}:PostItemPropsType) => {
-    const convertedResizedImageUrl=`${post.image.url}?width=500&fm=webp`
+const PostItem = ({post}: PostItemPropsType) => {
+    const convertedResizedImageUrl = `${post.image.url}?width=500&fm=webp`
     return (
         <div className={s.itemWrapper}>
             <div className={s.card}>
