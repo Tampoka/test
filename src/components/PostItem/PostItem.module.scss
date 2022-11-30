@@ -1,0 +1,30 @@
+.itemWrapper {
+  .card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 335px;
+
+    img {
+      width: 335px;
+      height: 160px;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .title {
+      margin: 10px 0 0 0;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 26px;
+      padding: 0 10px 12px;
+    }
+
+    .description {
+      margin: 6px 0 0 0;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      padding: 0  10px 12px;
+    }
+  }
+
+}
