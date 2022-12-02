@@ -1,7 +1,7 @@
 import './App.css'
 import {SettingsPanel} from './components/SettingsPanel/SettingsPanel';
 import {PostsList} from './components/PostsList/PostsList';
-import {PostType} from './types/post';
+import {PostType} from './types/posts/post';
 import {useEffect, useState} from 'react';
 import {useFetching} from './hooks/useFetching';
 import {postsApi} from './api/posts-api/posts-api';

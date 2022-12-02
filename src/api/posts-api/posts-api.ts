@@ -1,5 +1,5 @@
 import {instance} from './posts-api-config';
-import {PostType} from '../../types/post';
+import {PostType} from '../../types/posts/post';
 
 export const postsApi = {
     getPosts() {
