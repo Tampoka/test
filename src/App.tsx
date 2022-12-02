@@ -20,16 +20,21 @@ function App() {
     })
 
     useEffect(() => {
-        // @ts-ignore
         fetchPosts()
     }, [])
 
-    console.log(sortedByDisplayOrderPosts)
+    // 代入してから呼び出し
+    /*   useEffect(() => {
+           const getPosts = async () => {
+               await fetchPosts()
+           }
+           getPosts()
+       }, [])*/
+
     return (
         <div className="App">
             {postsError &&
-            // @ts-ignore
-            <h2>ERROR ${postsError}</h2>
+            (<h2>ERROR ${postsError}</h2>)
             }
             {isPostsLoading &&
             <div style={{display: 'flex', justifyContent: 'center', marginTop: 50}}>
