@@ -1,4 +1,4 @@
-import {PostType} from '../types/types';
+import {PostType} from '../types/post';
 import {useMemo} from 'react';
 
 export const useSortedPosts = (posts: PostType[]) => {

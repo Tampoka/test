@@ -1,5 +1,5 @@
 import s from './PostsList.module.scss'
-import {PostType} from '../../types/types';
+import {PostType} from '../../types/post';
 import PostItem from '../PostItem/PostItem';
 
 type PostsListPropsType = {

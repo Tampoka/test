@@ -1,10 +1,10 @@
 import './App.css'
 import {SettingsPanel} from './components/SettingsPanel/SettingsPanel';
 import {PostsList} from './components/PostsList/PostsList';
-import {PostType} from './types/types';
+import {PostType} from './types/post';
 import {useEffect, useState} from 'react';
 import {useFetching} from './hooks/useFetching';
-import {postsApi} from './api/posts-api';
+import {postsApi} from './api/posts-api/posts-api';
 import {useSortedPosts} from './hooks/useSortedPosts';
 import Loader from './components/Loader/Loader';
 
