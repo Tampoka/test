@@ -1,0 +1,18 @@
+.listWrapper {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 36px 24px 20px 20px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  gap: 15px;
+  background-color: #E5E5E5;
+
+  h2 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
